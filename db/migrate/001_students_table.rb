@@ -1,7 +1,7 @@
-class Students_Table < ActiveRecord::Migration
+class StudentsTable < ActiveRecord::Migration
   def change
-    create_table :posts do |t|
-      t.string :title
+    create_table :students do |t|
+      t.string :
       t.text :description
  
       t.timestamps null: false
